@@ -45,7 +45,7 @@ router.get('/', async (ctx, next) => {
 	const result = {
 		code:200,
 		response: data,
-		ts: 12345
+		ts: 123456
 	}
 	ctx.response.body = result
 	return result
